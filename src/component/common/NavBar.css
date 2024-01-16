@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #F2DFD7 !important;
+    color: #2D446E !important;
+}
+
+.btn{
+    background-color: #E77965;
+    margin: 5px;
+    color: #2D446E;
+    border-color: #E77965;
+    font-family: 'Glacial Indifference', sans-serif;
+}

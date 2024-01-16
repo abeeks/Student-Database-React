@@ -10,6 +10,8 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Search from "../common/Search";
+import '/Users/student10/dev/front-end-projects/student-database/src/component/student/Student.css';
+import books from '/Users/student10/dev/front-end-projects/student-database/src/component/images/books.png';
 
 const StudentsView = () => {
 	const [students, setStudents] = useState([]);
@@ -101,6 +103,7 @@ const StudentsView = () => {
 						))}
 				</tbody>
 			</table>
+            <img src={books} width={300}/>
 		</section>
 	);
 };

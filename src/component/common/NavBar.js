@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../common/NavBar.css';
+import logo from '../images/logo.png'
 
 const NavBar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
 			<div className="container-fluid">
 				<Link className="navbar-brand" to={"/"}>
-					Student Database
+                    <img src={logo} width={150}/>
 				</Link>
 				<button
 					className="navbar-toggler"
@@ -24,17 +26,17 @@ const NavBar = () => {
 					<ul className="navbar-nav">
 						<li className="nav-item">
 							<Link
-								className="nav-link active"
+								className="btn btn-secondary"
 								aria-current="page"
 								to={"/view-students"}>
-								View All Student
+								Current Students
 							</Link>
 						</li>
 						<li className="nav-item">
 							<Link
-								className="nav-link"
+								className="btn btn-secondary"
 								to={"/add-students"}>
-								Add New Students
+								Add New Student
 							</Link>
 						</li>
 					</ul>

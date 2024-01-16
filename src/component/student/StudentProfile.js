@@ -4,6 +4,7 @@ import React, {
 } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import studentPic from '/Users/student10/dev/front-end-projects/student-database/src/component/images/student.png';
 
 const StudentProfile = () => {
 	const { id } = useParams();
@@ -36,7 +37,7 @@ const StudentProfile = () => {
 						<div className="card mb-4">
 							<div className="card-body text-center">
 								<img
-									src="https://static.thenounproject.com/png/2861600-200.png"
+									src={studentPic}
 									alt="avatar"
 									className="rounded-circle img-fluid"
 									style={{ width: 150 }}
@@ -68,7 +69,7 @@ const StudentProfile = () => {
 								<div className="row">
 									<div className="col-sm-3">
 										<h5 className="mb-0">
-											First Nmae
+											First Name
 										</h5>
 									</div>
 
