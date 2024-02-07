@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <div>
       <div>
-        <h2>Welcome to the Computer Sciences Department</h2>
+        <h2 className='text-center'>Welcome to the Computer Sciences Department</h2>
         </div>
         <div>
-        <img src={image}/>
+        <img src={image} alt= "logo"/>
         </div>
     </div>
   )

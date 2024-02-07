@@ -45,7 +45,7 @@ const StudentProfile = () => {
 								<h5 className="my-3">
 									{`${student.firstName} ${student.lastName}`}
 								</h5>
-								<div className="d-flex justify-content-center mb-2">
+								<div className="d-flex mb-2 mt-5">
 									<button
 										type="button"
 										className="btn btn-outline-primary">

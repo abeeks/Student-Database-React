@@ -33,7 +33,7 @@ const AddStudent = () => {
 	};
 
 	return (
-		<div className="col-sm-8 py-2 px-5 offset-2 shadow">
+		<div className="col-sm-8 py-2 px-5 offset-2 shadow mb-5">
 			<h1 className="mt-5"> Add Student</h1>
 			<form onSubmit={(e) => saveStudent(e)}>
 				<div className="input-group mb-5">

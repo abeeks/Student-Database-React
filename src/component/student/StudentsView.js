@@ -63,7 +63,7 @@ const StudentsView = () => {
 				<tbody className="text-center">
 					{students
 						.filter((st) =>
-							st.firstName
+							st.firstName && st.lastName
 								.toLowerCase()
 								.includes(search)
 						)
